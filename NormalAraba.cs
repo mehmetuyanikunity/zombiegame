@@ -16,7 +16,7 @@ public sealed class NormalAraba : ArabaZombiBase
 
         if (ArabaHizi > ArabaHizi*0.7)
         {
-            Debug.Log("5 saniye turbo çalýþacak, 20 saniye sonra turbo dolacak.");
+            Debug.Log("5 saniye turbo calisacak, 20 saniye sonra turbo dolacak.");
         }
     }
 
