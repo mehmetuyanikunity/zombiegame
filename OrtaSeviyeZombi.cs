@@ -1,8 +1,8 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public sealed class OrtaSeviyeZombi : ArabaZombiBase
+public class OrtaSeviyeZombi : ArabaZombi
 {
     public OrtaSeviyeZombi(string _zombiTuru, float _zombiHizi, float _zombiGucu)
     {

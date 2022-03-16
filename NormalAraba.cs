@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public sealed class NormalAraba : ArabaZombiBase
+public sealed class NormalAraba : ArabaZombi
 {
-    public NormalAraba(string _adi, float _hizi, float _gucu)
+    public NormalAraba(string _adi, float _hizi, decimal _gucu)
     {
         ArabaAdi = _adi;
         ArabaHizi = _hizi;
@@ -15,10 +15,10 @@ public sealed class NormalAraba : ArabaZombiBase
     {
         ArabaAnlikHiz = TurboluHiz;
 
-        if (ArabaAnlikHiz > ArabaHizi / 2)
+        if (ArabaAnlikHiz > ArabaHizi * 0.5)
         {
-            TurboluHiz += ArabaHizi / 2;
-            Debug.Log("5 saniye turbo calisacak, 20 saniye sonra turbo dolacak.");
+            TurboluHiz += ArabaHizi * 2;
+            Debug.Log("Turbo Aktif");
         }
     }
 

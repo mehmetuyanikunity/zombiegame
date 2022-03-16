@@ -18,10 +18,12 @@ public class MainArabaZombi : MonoBehaviour
 
     void ArabaOlustur()
     {
-        NormalAraba _normalAraba = new NormalAraba("Normal Araba", 100f, 500f);
+        NormalAraba _normalAraba = new NormalAraba("Normal Araba", 100f, 500m);
         _normalAraba.Turbo();
-        YarisArabasi _yarisArabasi = new YarisArabasi("Yarýþ Arabasý", 160f, 800f);
-        DagArabasi _dagArabasi = new DagArabasi("Dað Arabasý", 80f, 1000f);
+        YarisArabasi _yarisArabasi = new YarisArabasi("Yarýþ Arabasý", 160f, 800m);
+        _yarisArabasi.Turbo();
+        DagArabasi _dagArabasi = new DagArabasi("Dað Arabasý", 80f, 1000m);
+        _dagArabasi.Turbo();
 
     }
 
