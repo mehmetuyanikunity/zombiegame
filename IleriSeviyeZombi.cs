@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IleriSeviyeZombi : ArabaZombiBase
+public sealed class IleriSeviyeZombi : ArabaZombiBase
 {
     public IleriSeviyeZombi(string _zombiTuru, float _zombiHizi, float _zombiGucu)
     {

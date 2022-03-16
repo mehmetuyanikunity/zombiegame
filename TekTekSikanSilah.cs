@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TekTekSikanSilah : ArabaZombiBase
+public sealed class TekTekSikanSilah : ArabaZombiBase
 {
     public TekTekSikanSilah(string _silahTuru, int _silahHasari)
     {

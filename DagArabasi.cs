@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DagArabasi : ArabaZombiBase
+public sealed class DagArabasi : ArabaZombiBase
 {
     public DagArabasi(string _adi, float _hizi, float _gucu)
     {
