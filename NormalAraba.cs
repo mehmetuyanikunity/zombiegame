@@ -13,9 +13,11 @@ public sealed class NormalAraba : ArabaZombiBase
 
     public override void Turbo()
     {
+        ArabaAnlikHiz = TurboluHiz;
 
-        if (ArabaHizi > ArabaHizi*0.7)
+        if (ArabaAnlikHiz > ArabaHizi / 2)
         {
+            TurboluHiz += ArabaHizi / 2;
             Debug.Log("5 saniye turbo calisacak, 20 saniye sonra turbo dolacak.");
         }
     }
