@@ -7,7 +7,7 @@ public class MainArabaZombi : MonoBehaviour
     
     void Start()
     {
-        
+        //deneme
     }
 
     
